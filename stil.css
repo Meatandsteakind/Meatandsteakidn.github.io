@@ -69,6 +69,14 @@ ul li a:hover {
   color: darkorange;
 }
 
+.but0 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%-50%);
+  font-size: 13;
+}
+
 .button {
   position: absolute;
   top: 40%;
@@ -131,6 +139,21 @@ ul li a:hover {
 }
 
 .btn1:hover {
+  background-color: #F57E20;
+  color: #fff;
+}
+
+.btn6 {
+  position: relative;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  margin: 10px;
+}
+.btn6:hover {
   background-color: #F57E20;
   color: #fff;
 }
